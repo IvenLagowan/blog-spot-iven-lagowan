@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery Blog Spot | Iven Lagowan</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">FI<span>KOM</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link"><a href="#client">Clients</a></li>
+            <li class="link"><a href="#blog">Blog</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.JPG" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Menciptakan Keunggulan Digital</h4>
+          <h1>Hai, Saya Iven Diberikan. Ini Karya Favoritku!</h1>
+          <p>
+            Saya seorang pengembang web berdedikasi dengan bakat kreatif dan kegemaran
+            untuk mengubah baris kode menjadi pengalaman online yang menawan. -ku
+            perjalanan di dunia digital dimulai bertahun-tahun yang lalu, dan sejak itu saya terus mengasahnya
+            keterampilan saya dalam pengembangan front-end dan back-end.
+          </p>
+          <button class="btn">Pekerjakan Saya Sekarang</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hai, Saya Iven Lagowan</h2>
+        <p>
+          Seorang pengembang web yang bersemangat dengan bakat kreatif dan bakat
+          mengubah visi menjadi kenyataan. Perjalanan saya dalam pengembangan web dimulai dengan
+          ketertarikan pada coding dan desain, dan itu telah berkembang menjadi karier
+          tempat saya memadukan estetika dengan fungsionalitas.
+        </p>
+        <h4>
+          Dengan fokus pada pengalaman pengguna dan komitmen untuk terus mengikuti perkembangan
+          dengan tren industri terkini, saya berdedikasi untuk membuat web
+          solusi yang tidak hanya memenuhi tetapi melampaui harapan.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/IVEN_CV.jpeg" download class="download__btn">
+            Download CV
+          </a>
+          <a href="#"><i class="ri-mail-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>Desain</h4>
+          <p>
+            Desainer dan pembuat konten kami berkomitmen untuk mewujudkannya
+            konten digital yang menarik.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Development</h4>
+          <p>
+            Kami tetap berada di garis depan kemajuan teknologi, memastikan Anda
+            pemain kehadiran digital.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Pengujian & QA</h4>
+          <p>
+            Kami memahami bahwa kehadiran digital Anda tidak hanya harus terlihat bagus,
+            itu harus menghasilkan lalu lintas & keterlibatan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Proyek Kami</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web Apps</button>
+          <button class="btn project__btn" data-filter=".game">Games</button>
+          <button class="btn project__btn" data-filter=".design">
+            Designs
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets/project-1.jpg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-2.jpg" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-3.jpg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/project-4.jpg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-5.jpg" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-6.jpg" alt="project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">pelayanan kami</p>
+      <h2 class="section__header">Apa yang kita lakukan?</h2>
+      <p class="section__description">
+        Kami berspesialisasi dalam berbagai layanan pengembangan web yang dirancang untuk itu
+        mengubah visi Anda menjadi kenyataan.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            Kami membuat antarmuka ramah pengguna yang melibatkan pengunjung dan membantu Anda
+            mencapai tujuan online Anda dengan upaya minimal.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>Solusi E-niaga</h4>
+          <p>
+            Kami membangun toko online yang aman, terukur, dan berpusat pada pengguna
+            meningkatkan pengalaman berbelanja dan mendorong konversi.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>Pengembangan Seluler</h4>
+          <p>
+            Dari iOS hingga Android, kami menciptakan aplikasi yang menghadirkan kelancaran
+             kinerja dan membuat pengguna kembali lagi untuk mendapatkan lebih banyak.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Pemasaran Konten</h4>
+          <p>
+            Layanan kami meliputi pembuatan postingan blog, video, dan media sosial
+             konten yang mendorong lalu lintas dan keterlibatan.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>SEO</h4>
+          <p>
+            Strategi SEO kami disesuaikan dengan tujuan spesifik Anda, membantu Anda
+            menjangkau audiens target Anda dan mengembangkan kehadiran online Anda.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>Pemasaran Digital</h4>
+          <p>
+            Dari periklanan bayar per klik (PPC) hingga pemasaran media sosial, kami
+             pastikan merek Anda menonjol di lanskap digital yang ramai.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <p class="section__subheader">Testimonial</p>
+      <h2 class="section__header">Apa Kata Klien Kami Tentang Kami</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div>
+                <p>
+                  Mereka mengubah kehadiran online kami dengan SEO dan
+                  layanan pemasaran konten. Situs web kami sekarang berperingkat lebih tinggi
+                  hasil pencarian, dan kualitas prospek telah meningkat
+                  secara substansial. Saya sangat merekomendasikan pemasaran digital mereka
+                  keahlian.
+                </p>
+                <h4>Nahor Sekenyap <span>CEO, Corporation</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div>
+                <p>
+                  Bekerja sama dengan mereka telah membawa perubahan besar bagi bisnis kami.
+                  Keahlian pengembangan web mereka membantu kami menciptakan sistem yang ramping dan
+                  situs web responsif yang telah meningkatkan online kami secara signifikan
+                  penjualan. Dedikasi dan solusi inovatif mereka sungguh luar biasa
+                  mereka terpisah.
+                </p>
+                <h4>Jiscca Tabuni <span>Marketing Director</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <div>
+                <p>
+                  Strategi pemasaran digital kami perlu diubah, dan memang begitu
+                  memberikan hasil yang luar biasa. Pendekatan kreatif tim mereka
+                  terhadap kampanye PPC dan iklan media sosial telah menghasilkan a
+                  peningkatan signifikan dalam lalu lintas dan konversi situs web kami.
+                </p>
+                <h4>Helon M <span>Marketing Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpg" alt="client" />
+              <div>
+                <p>
+                  Aplikasi seluler yang mereka kembangkan untuk perusahaan kami melampaui kami
+                  harapan. Tidak hanya mudah digunakan, tetapi juga membantu
+                  kami terhubung dengan pelanggan kami pada tingkat yang benar-benar baru. Milik mereka
+                  perhatian terhadap detail dan komitmen untuk menyelesaikan tepat waktu
+                  luar biasa.
+                </p>
+                <h4>Hervin Heselo <span>Product Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container blog__container" id="blog">
+      <p class="section__subheader">Postingan Blog</p>
+      <h2 class="section__header">Saya Suka Menulis Artikel</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <p>Studi kasus</p>
+          <h4>Mengubah Klik menjadi Konversi dengan PPC</h4>
+          <a href="#">Baca selengkapnya</a>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <p>Pendidikan/Bagaimana-Untuk</p>
+          <h4>Panduan Utama untuk Aksesibilitas Situs Web</h4>
+          <a href="#">Baca selengkapnya</a>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <p>Analisis Tren</p>
+          <h4>Tren Desain Web 2023: Apa yang Masuk dan Apa yang Keluar</h4>
+          <a href="#">Baca selengkapnya</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Kontak SA</p>
+      <h2 class="section__header">Berhubungan</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Kirim</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Andarson</a></h5>
+          <p>
+            Saya seorang pengembang web berdedikasi dengan bakat kreatif dan kegemaran
+            untuk mengubah baris kode menjadi pengalaman online yang menawan.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-dribbble-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">Web Design</a>
+            <a href="#">App Design</a>
+            <a href="#">Photography</a>
+            <a href="#">Videography</a>
+            <a href="#">Web Development</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+            <a href="#">My Blog</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. <span class="roe-ng"> Iven Lagowan</span> All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
